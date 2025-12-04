@@ -12,6 +12,8 @@ const config: Config = {
   coverageDirectory: "coverage",
 
   coverageProvider: "v8",
+
+  maxWorkers: 2,
 };
 
 module.exports = config;
